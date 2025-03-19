@@ -110,6 +110,19 @@ The environment simulates an agent navigating the number line. At each step:
 
 Over time, the agent learns patterns that lead to higher concentrations of prime numbers.
 
+Future Improvements
+Note: The current implementation needs further hyperparameter tuning to achieve optimal performance. Consider:
+
+Reward Function: Experimenting with different reward values or introducing decay
+DQN Parameters: Adjusting buffer size, batch size, and learning starts
+Learning Parameters: Tuning learning rate, discount factor, and exploration rate
+Action Space: Adding or modifying available step sizes
+Curriculum Learning: Gradually increasing the difficulty by expanding the number range
+Advanced RL Algorithms: Testing PPO, A2C, or SAC instead of DQN
+Custom Policy Networks: Implementing custom neural network architectures beyond the default MlpPolicy
+
+Feel free to contribute tuning experiments and share your results!
+
 ## License
 
 [MIT License](LICENSE)
